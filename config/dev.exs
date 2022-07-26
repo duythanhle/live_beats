@@ -13,8 +13,8 @@ config :live_beats, :github,
 
 # Configure your database
 config :live_beats, LiveBeats.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "thanhle",
+  password: "",
   database: "live_beats_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
@@ -22,8 +22,8 @@ config :live_beats, LiveBeats.Repo,
 
 # Configure your replica database
 config :live_beats, LiveBeats.ReplicaRepo,
-  username: "postgres",
-  password: "postgres",
+  username: "thanhle",
+  password: "",
   database: "live_beats_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
